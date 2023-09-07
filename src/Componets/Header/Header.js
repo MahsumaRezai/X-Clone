@@ -6,7 +6,8 @@ const Headers = (props) => {
     return (
         <Fragment>
             <div className={classes.head}>
-                <div>
+    
+                <div className={classes.warp}>
                     <img src={img} alt="" className={classes.img} />
 
                 </div>
