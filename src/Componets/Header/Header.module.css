@@ -1,0 +1,16 @@
+.head {
+    background: purple;
+    width: 100%;
+    height: 200px;
+}
+.img  {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 5px solid white
+
+}
+.profile {
+    padding-top: 150px;
+    padding-left: 50px
+}
