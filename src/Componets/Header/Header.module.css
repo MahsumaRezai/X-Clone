@@ -27,7 +27,8 @@
     background: white;
     border: 1px solid gainsboro;
     padding:10px;
-    border-radius: 50px
+    border-radius: 50px;
+    font-weight: bold
 }
 .content {
     display: flex;

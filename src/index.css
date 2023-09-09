@@ -10,4 +10,9 @@ body {
   font-family:  sans-serif;
   background:white
 }
-
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start
+}
