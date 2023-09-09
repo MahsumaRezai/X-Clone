@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import Header from "./Componets/Header/Header";
 import Head from "./Componets/Head/Head";
 import { Route } from 'react-router-dom'
@@ -6,17 +6,24 @@ import Tweets from "./Pages/Tweets";
 import Repile from "./Pages/Repile";
 import Media from "./Pages/Media";
 import Links from "./Pages/Links";
+import ErroModal from './Componets/UI/ErrorModal';
 
 
 
 function App(props) {
+    const [show, setshow] = useState(false);
+    const showHandler = () => {
+        setshow(true)
+
+    }
 
 
 
 
     return (
         <Fragment>
-            <Header />
+            <Header onshow={showHandler} />
+            {show && <ErroModal />}
             <Head />
             <Route path='/tweets'>
                 <Tweets />
@@ -35,7 +42,7 @@ function App(props) {
                 <Links />
 
             </Route>
-          
+
 
 
 

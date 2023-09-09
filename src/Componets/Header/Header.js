@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import classes from './Header.module.css';
 import Profile from "./Profile";
 import Content from "./Content";
+import Edit from './Edit'
 
 const Header = (props) => {
     return (
@@ -9,6 +10,7 @@ const Header = (props) => {
             <div className={classes.head}>
                 <Profile />
                 <Content />
+                <Edit onClick={props.onshow} />
 
             </div>
 

@@ -6,7 +6,7 @@ const Edit = (props) => {
     return (
         <Fragment>
             <div className={classes.edit}>
-                <button>
+                <button onClick={props.onClick}>
                     Edit profile
                 </button>
             </div>

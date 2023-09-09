@@ -20,7 +20,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 50px;
-    margin-top: -80px
+    margin-top: -300px
 
 }
 .edit button {
@@ -43,7 +43,7 @@
     flex-direction:column;
     justify-content: flex-start;
     align-items: flex-start; 
-    padding-top: 50px ;
+    padding-top: 10px ;
     padding-left: 50px;
     text-align: center;
     gap:10px
