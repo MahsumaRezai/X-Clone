@@ -11,6 +11,7 @@ const Head = (props) => {
                 <li className={classes.links}><Link to='/media' className={classes.link}>Media</Link></li>
                 <li className={classes.links}><Link to='/links' className={classes.link}>Links</Link></li>
 
+
             </ul>
 
         </Fragment>

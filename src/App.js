@@ -6,17 +6,18 @@ import Tweets from "./Pages/Tweets";
 import Repile from "./Pages/Repile";
 import Media from "./Pages/Media";
 import Links from "./Pages/Links";
-import ErroModal from './Componets/UI/ErrorModal'
+
 
 
 function App(props) {
+
+
 
 
     return (
         <Fragment>
             <Header />
             <Head />
-            <ErroModal/>
             <Route path='/tweets'>
                 <Tweets />
 
@@ -34,6 +35,8 @@ function App(props) {
                 <Links />
 
             </Route>
+          
+
 
 
 
