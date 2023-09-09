@@ -1,11 +1,12 @@
 import { Fragment } from "react";
 import Header from "./Componets/Header/Header";
-import Head from "./Componets/Head";
+import Head from "./Componets/Head/Head";
 import { Route } from 'react-router-dom'
 import Tweets from "./Pages/Tweets";
 import Repile from "./Pages/Repile";
 import Media from "./Pages/Media";
 import Links from "./Pages/Links";
+import ErroModal from './Componets/UI/ErrorModal'
 
 
 function App(props) {
@@ -15,6 +16,7 @@ function App(props) {
         <Fragment>
             <Header />
             <Head />
+            <ErroModal/>
             <Route path='/tweets'>
                 <Tweets />
 
