@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 import classes from './Tweets.module.css'
 
-const Tweets = (props) => {
+const Media = (props) => {
     return (
         <Fragment>
             <div className={classes.content}>
-                <h1>hello</h1>
+                <h1>Media</h1>
 
             </div>
         </Fragment>
     )
 }
-export default Tweets;
+export default Media;
