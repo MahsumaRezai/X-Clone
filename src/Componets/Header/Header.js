@@ -1,19 +1,10 @@
 import { Fragment } from "react";
-import classes from './Header.module.css';
-import img from '../image/profile.jpg'
 
-const Headers = (props) => {
+const Header = (props) => {
     return (
         <Fragment>
-            <div className={classes.head}>
-    
-                <div className={classes.warp}>
-                    <img src={img} alt="" className={classes.img} />
 
-                </div>
-
-            </div>
         </Fragment>
     )
 }
-export default Headers;
+export default Header
