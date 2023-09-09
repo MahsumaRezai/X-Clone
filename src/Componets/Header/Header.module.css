@@ -42,7 +42,8 @@
     flex-direction:column;
     justify-content: flex-start;
     align-items: flex-start; 
-    padding: 50px ;
+    padding-top: 50px ;
+    padding-left: 50px;
     text-align: center;
     gap:10px
 
@@ -57,4 +58,50 @@
     text-align: center;
     color: gray;
     
+}
+.introduct {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding-left: 50px;
+    padding-top: 20px
+}
+.introduct p {
+    font-weight: bold;
+    font-size: 17px
+}
+.apptend {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 17px
+}
+.apptend a  {
+    color: blue;
+
+}
+.contact {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.contact p {
+    color: gray
+}
+.follow {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 10px;
+    gap: 20px
+}
+.follow span {
+    font-size: 17px;
+    color: black
 }

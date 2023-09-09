@@ -11,8 +11,22 @@ const Content = (props) => {
                     <p>@MahsumaRezai</p>
 
                 </div>
-                <div>
+                <div className={classes.introduct}>
+                    <p>self-taught forntend developer and BCS in computer science</p>
 
+                </div>
+                <div className={classes.apptend}>
+                    <p>Afghanistan</p>
+                    <a href="github.com/MahsumaRezai">github.com/MahsumaRezai</a>
+                </div>
+                <div className={classes.contact}>
+                    <p>joined March 2019</p>
+
+                </div>
+                <div className={classes.follow}>
+                 
+                    <span>300 Following</span>
+                    <span>175 Followers</span>
                 </div>
 
             </div>
