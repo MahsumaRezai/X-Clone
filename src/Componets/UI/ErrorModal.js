@@ -5,6 +5,7 @@ import classes from './ErrorModal.module.css';
 import { Fragment } from 'react';
 import Head from './Head';
 import Header from './Header';
+import Bio from './Bio'
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
 }
@@ -14,6 +15,7 @@ const Modaloerlay = (props) => {
         <Card className={classes.modal}>
             <Head />
             <Header />
+            <Bio/>
 
 
         </Card>

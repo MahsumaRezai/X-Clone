@@ -10,7 +10,7 @@
   
   .modal {
     position: fixed;
-    top: 30vh;
+    top: 10vh;
     left: 10%;
     width: 80%;
     z-index: 100;
@@ -50,4 +50,29 @@
       left: calc(50% - 20rem);
       width: 40rem;
     }
+  }
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .label {
+    border-bottom: 1px solid gainsboro;
+    width: 90%;
+    padding-bottom: 10px
+  }
+  .bio button {
+    background: white;
+    border:  1px solid gainsboro;
+    padding: 20px;
+    border-radius: 50px ;
+
+  }
+  .btn {
+    padding-bottom: 50px
   }
