@@ -12,10 +12,12 @@ import ErroModal from './Componets/UI/ErrorModal';
 
 function App(props) {
     const [show, setshow] = useState(false);
+
     const showHandler = () => {
         setshow(true)
 
     }
+    
 
 
 
@@ -23,8 +25,8 @@ function App(props) {
     return (
         <Fragment>
             <Header onshow={showHandler} />
-            {show && <ErroModal />}
-            <Head />
+            {show  && <ErroModal />}
+            <Head /> 
             <Route path='/tweets'>
                 <Tweets />
 
