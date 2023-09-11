@@ -1,11 +1,13 @@
 import { Fragment } from "react";
-import classes from './Tweets.module.css'
+import classes from './Tweets.module.css';
+import Text from './Text'
 
 const Tweets = (props) => {
     return (
         <Fragment>
             <div className={classes.content}>
-                <h1>hello</h1>
+                <Text />
+
 
             </div>
         </Fragment>
