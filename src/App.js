@@ -32,10 +32,6 @@ function App(props) {
         setAddPost(false)
     }
 
-
-
-
-
     return (
         <Fragment>
             <Header onshow={showHandler} />
@@ -59,17 +55,6 @@ function App(props) {
             </Route>
             <Add onPost={AddPost} />
             {addPost && <ErroModals onconfirm={removePost} />}
-
-
-
-
-
-
-
-
-
-
-
         </Fragment>
     )
 }

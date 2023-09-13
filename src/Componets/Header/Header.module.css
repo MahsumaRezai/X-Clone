@@ -15,6 +15,11 @@
     padding-top: 150px;
     padding-left: 50px
 }
+@media screen and (max-width:540px){
+    .profile {
+        padding-left: 10px
+    }
+}
 .edit {
     display: flex;
     flex-direction: row;
@@ -23,6 +28,12 @@
     padding-right: 50px;
     margin-top: -300px
 
+}
+@media screen and (max-width:540px){
+    .edit {
+        padding-right: 10px;
+        margin-top: -320px
+    }
 }
 .edit button {
     background: white;
