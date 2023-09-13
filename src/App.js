@@ -8,17 +8,26 @@ import Media from "./Pages/Media";
 import Links from "./Pages/Links";
 import ErroModal from './Componets/UI/ErrorModal';
 import Add from "./Componets/Add/Add";
+import ErroModals from "./Componets/Addmodule/ErrorModals";
 
 
 
 function App(props) {
     const [show, setshow] = useState(false);
+    const [addPost, setAddPost] = useState(false)
 
     const showHandler = () => {
         setshow(true)
 
     }
-    
+    const AddPost = () => {
+        setAddPost(true)
+
+    }
+    const removePost = () => {
+        setAddPost(false)
+    }
+
 
 
 
@@ -26,8 +35,8 @@ function App(props) {
     return (
         <Fragment>
             <Header onshow={showHandler} />
-            {show  && <ErroModal />}
-            <Head /> 
+            {show && <ErroModal />}
+            <Head />
             <Route path='/tweets'>
                 <Tweets />
 
@@ -44,8 +53,10 @@ function App(props) {
             <Route path='/links'>
                 <Links />
             </Route>
-            <Add/>
-        
+            <Add onPost={AddPost} />
+            {addPost && <ErroModals onconfirm={removePost} />}
+
+
 
 
 

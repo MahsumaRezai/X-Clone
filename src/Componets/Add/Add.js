@@ -5,7 +5,7 @@ const Add = (props) => {
     return (
         <Fragment>
             <div className={classes.add}>
-                <button>
+                <button onClick={props.onPost}>
                     {props.childern}
                     +
                 </button>
