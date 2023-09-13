@@ -3,6 +3,9 @@ import ReactDom from 'react-dom';
 import Card from './Card';
 import classes from './ErrorModal.module.css';
 import { Fragment } from 'react';
+import Head from './Head';
+import Caption from './Caption';
+import Content from './Content';
 
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
@@ -12,10 +15,12 @@ const Modaloerlay = (props) => {
     return (
         <Card className={classes.modal}>
             <div>
-                <div className={classes.heads}>
-                    <sapn>Drafts</sapn>
-                    <button className={classes.btn}>Tweet</button>
-                </div>
+                <Head />
+                <Caption />
+                <Content />
+
+
+
             </div>
 
 

@@ -30,7 +30,8 @@
   align-items: flex-end;
   padding: 20px 20px;
   gap: 10px;
-  border-bottom: 3px solid gainsboro;
+  margin-bottom: 20px;
+  
 }
 .btn {
   background: cornflowerblue;
@@ -42,4 +43,38 @@
   font-weight: bold;
 
 }
-  
+.title {
+  text-align: center;
+  padding: 10px 20px;
+  color: cornflowerblue;
+
+}
+.parts {
+   border: 1px solid cornflowerblue;
+   border-radius: 30px;
+   color: cornflowerblue;
+   width: 100px;
+   height: 30px;
+   padding:0 10px;
+   margin: 5px
+}
+.caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap:10px;
+  padding-left: 10px
+
+}
+.caption img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px
+}
+.text {
+  color:gray;
+  padding: 20px 10px 100px 10px;
+  font-weight: normal
+
+}

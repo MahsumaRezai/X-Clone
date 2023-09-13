@@ -20,6 +20,10 @@ function App(props) {
         setshow(true)
 
     }
+    const hideHandler = () => {
+        setshow(false)
+
+    }
     const AddPost = () => {
         setAddPost(true)
 
@@ -35,7 +39,7 @@ function App(props) {
     return (
         <Fragment>
             <Header onshow={showHandler} />
-            {show && <ErroModal />}
+            {show && <ErroModal onconfirm={hideHandler} />}
             <Head />
             <Route path='/tweets'>
                 <Tweets />
