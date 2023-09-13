@@ -5,7 +5,9 @@ const Links = (props) => {
     return (
         <Fragment>
             <div className={classes.content}>
-                <h1>Links</h1>
+            <div>
+                <h2>there</h2>
+            </div>
 
             </div>
         </Fragment>

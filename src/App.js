@@ -7,6 +7,7 @@ import Repile from "./Pages/Repile";
 import Media from "./Pages/Media";
 import Links from "./Pages/Links";
 import ErroModal from './Componets/UI/ErrorModal';
+import Add from "./Componets/Add/Add";
 
 
 
@@ -42,8 +43,9 @@ function App(props) {
             </Route>
             <Route path='/links'>
                 <Links />
-
             </Route>
+            <Add/>
+        
 
 
 

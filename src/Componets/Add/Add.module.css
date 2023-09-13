@@ -1,0 +1,17 @@
+.add {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px 50px;
+}
+.add button {
+    background:cornflowerblue;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+
+}

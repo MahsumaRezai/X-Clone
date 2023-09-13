@@ -5,7 +5,7 @@ const Repile = (props) => {
     return (
         <Fragment>
             <div className={classes.content}>
-                <h1>repile</h1>
+                <h1 className={classes.title}>Coding is very important for you</h1>
 
             </div>
         </Fragment>

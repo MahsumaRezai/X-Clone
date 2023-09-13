@@ -30,11 +30,13 @@
     font-size: 17px;
   }
   .header button {
-    background: white;
-    border: none
+    background:cornflowerblue;
+    border: none;
+    color: black
+
   }
   .head {
-    background: purple;
+    background: cornflowerblue;
     width: 100%;
     padding: 50px
   }
