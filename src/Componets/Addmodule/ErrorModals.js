@@ -11,7 +11,12 @@ const Modaloerlay = (props) => {
 
     return (
         <Card className={classes.modal}>
-
+            <div>
+                <div className={classes.heads}>
+                    <sapn>Drafts</sapn>
+                    <button className={classes.btn}>Tweet</button>
+                </div>
+            </div>
 
 
         </Card>
